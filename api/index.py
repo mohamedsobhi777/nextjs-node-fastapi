@@ -2,6 +2,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/api/python")
+@app.get("/")
 def hello_world():
-    return {"message": "Hello World"}
+    return {"message": "Python route is working"}
