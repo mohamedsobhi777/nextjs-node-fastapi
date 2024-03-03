@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/api/python")
 def hello_world():
-    return {"message": "Hello World"}
+    return {"message": "python route is working!"}
